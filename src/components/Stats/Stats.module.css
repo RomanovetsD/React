@@ -1,0 +1,34 @@
+.statsSection {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  width: 350px;
+}
+
+.title {
+  padding: 30px;
+  font-size: 26px;
+  color: rgb(71, 89, 101);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.statList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 100%;
+  border: 1px solid rgb(71, 89, 101);
+  background: rgb(132, 192, 172);
+}
+
+.label,
+.percentage {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+}
